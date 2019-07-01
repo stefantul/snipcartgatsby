@@ -65,5 +65,12 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    /*{
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+        apiKey: 'NzFmMzk5OWYtYmVmMC00NmQ2LTliY2YtYTU2MmFkN2U0NDhmNjM2OTcxNjgyOTE1MjIzNDQ4',
+        //jquery: 'false'
+      }
+    }*/
   ],
 }

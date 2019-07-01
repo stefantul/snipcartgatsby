@@ -21,12 +21,14 @@ const Homepage = () =>
             rel:"stylesheet",
             type:"text/css" 
           }]}
-          script={[{ 
+          script={[
+          { 
             type: 'text/javascript',
             id: "snipcart",
             "data-api-key": "NzFmMzk5OWYtYmVmMC00NmQ2LTliY2YtYTU2MmFkN2U0NDhmNjM2OTcxNjgyOTE1MjIzNDQ4",
             src:"https://cdn.snipcart.com/scripts/2.0/snipcart.js" 
-          },{
+          },
+          {
             type: 'text/javascript',
             src:"https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
           }]}
@@ -109,7 +111,7 @@ const Homepage = () =>
 															         className="snipcart-add-item"
 															         data-item-name="Monthly Subcription"
 																	 data-item-id="subscription"
-																	 data-item-url="/"
+																	 data-item-url="https://master.d29ju0mnpjd1z1.amplifyapp.com/homepage/"
 																	 data-item-price="10.00"
 																	 data-item-payment-interval="Month"
 																	 data-item-payment-interval-count="1"
@@ -119,18 +121,18 @@ const Homepage = () =>
                                                                   </div>
 
                                                                   <div className="elementor-button-wrapper">
-                                                                  	<div class="snipcart-summary">Snipcart summary</div>
+                                                                  	<div className="snipcart-summary">Snipcart summary</div>
                                                                   </div>
 
-                                                                  <a href="#" class="snipcart-user-profile">User profile</a> 
+                                                                  <a href="#" className="snipcart-user-profile">User profile</a> 
                                                                   {` | `}
-                                                                  <a href="#" class="snipcart-edit-profile">Edit profile</a>
+                                                                  <a href="#" className="snipcart-edit-profile">Edit profile</a>
 
                                                                   {` | `}
-                                                                  <a href="#" class="snipcart-user-profile"><span class="snipcart-user-email">Login</span></a>
+                                                                  <a href="#" className="snipcart-user-profile"><span className="snipcart-user-email">Login</span></a>
 
                                                                   {` | `}
-                                                                  <a href="#" class="snipcart-user-logout">Logout</a>
+                                                                  <a href="#" className="snipcart-user-logout">Logout</a>
                                                                
                                                                </div>
                                                             </div>
