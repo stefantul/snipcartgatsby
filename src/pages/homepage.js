@@ -111,7 +111,7 @@ const Homepage = () =>
 															         className="snipcart-add-item"
 															         data-item-name="Monthly Subcription"
 																	 data-item-id="subscription"
-																	 data-item-url="https://master.d29ju0mnpjd1z1.amplifyapp.com/homepage/"
+																	 data-item-url="https://master.d29ju0mnpjd1z1.amplifyapp.com/homepage"
 																	 data-item-price="10.00"
 																	 data-item-payment-interval="Month"
 																	 data-item-payment-interval-count="1"
