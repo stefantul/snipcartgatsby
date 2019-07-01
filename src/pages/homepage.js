@@ -1,7 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet"
 
-
 import '../css/inline.css'
 
 import jQuery from "jquery";
@@ -94,8 +93,7 @@ const Homepage = () =>
                                                          <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-44d2a85 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="44d2a85" data-element_type="widget" data-widget_type="button.default">
                                                                <div className="elementor-widget-container">
-                                                                  <div className="elementor-button-wrapper"> 
-                                                                  	
+                                                                  <div className="elementor-button-wrapper">
 															        <button
 															        style={{
 															            backgroundColor: "#212121",
@@ -108,16 +106,32 @@ const Homepage = () =>
 															            paddingLeft: "35px",
 															            fontSize: "24"
 															        }}
-															          className="snipcart-add-item"
-															          data-item-id="2"
-															          data-item-name="Bacon"
-															          data-item-price="3.00"
-															          data-item-weight="20"
-															          data-item-url="http://myapp.com/products/bacon"
-															          data-item-description="Some fresh bacon">
-															              Buy bacon
+															         className="snipcart-add-item"
+															         data-item-name="Monthly Subcription"
+																	 data-item-id="subscription"
+																	 data-item-url="/"
+																	 data-item-price="10.00"
+																	 data-item-payment-interval="Month"
+																	 data-item-payment-interval-count="1"
+																	>
+																	Upgrade Membership
 															      </button>
                                                                   </div>
+
+                                                                  <div className="elementor-button-wrapper">
+                                                                  	<div class="snipcart-summary">Snipcart summary</div>
+                                                                  </div>
+
+                                                                  <a href="#" class="snipcart-user-profile">User profile</a> 
+                                                                  {` | `}
+                                                                  <a href="#" class="snipcart-edit-profile">Edit profile</a>
+
+                                                                  {` | `}
+                                                                  <a href="#" class="snipcart-user-profile"><span class="snipcart-user-email">Login</span></a>
+
+                                                                  {` | `}
+                                                                  <a href="#" class="snipcart-user-logout">Logout</a>
+                                                               
                                                                </div>
                                                             </div>
                                                          </div>
