@@ -65,6 +65,7 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    'gatsby-plugin-layout'
     /*{
       resolve: 'gatsby-plugin-snipcart',
       options: {
